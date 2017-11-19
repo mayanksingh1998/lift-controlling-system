@@ -1,0 +1,27 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.4/bin/unwrapped/lnx64.o/xelab -wto 66bb520f4e954bf0b8aea1a8fc9073ed --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot lab8_elevator_control_behav xil_defaultlib.lab8_elevator_control -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture structure of entity xil_defaultlib.pulse1 [pulse1_default]
+Compiling architecture structure of entity xil_defaultlib.pulse [pulse_default]
+Compiling architecture structure of entity xil_defaultlib.ten_clock [ten_clock_default]
+Compiling architecture structure of entity xil_defaultlib.display_clock [display_clock_default]
+Compiling architecture struc of entity xil_defaultlib.request_handler [request_handler_default]
+Compiling architecture struc of entity xil_defaultlib.ringer [ringer_default]
+Compiling architecture structure of entity xil_defaultlib.v_to_cathode_char [v_to_cathode_char_default]
+Compiling architecture structure of entity xil_defaultlib.v_to_cathode_num [v_to_cathode_num_default]
+Compiling architecture struc of entity xil_defaultlib.display [display_default]
+Compiling architecture structure of entity xil_defaultlib.status_display_block [status_display_block_default]
+Compiling architecture structure of entity xil_defaultlib.lift_controller [lift_controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.lab8_elevator_control
+Built simulation snapshot lab8_elevator_control_behav

@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/v_to_cathode_char.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/v_to_cathode_num.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/display.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/ringer.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/pulse1.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/pulse.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/ten_clock.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/display_clock.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/request_handler.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/status_display_block.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/lift_controller.vhd"
+vhdl xil_defaultlib  "../../../lab8_elevator_control.srcs/sources_1/imports/Lab8/lab8_elevator_control.vhd"
+
+# Do not sort compile order
+nosort

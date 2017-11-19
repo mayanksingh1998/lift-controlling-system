@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Nov 17 15:41:15 2017
+# Process ID: 8146
+# Current directory: /home/kgopal/Downloads/lab8_elevator_control/lab8_elevator_control.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /home/kgopal/Downloads/lab8_elevator_control/lab8_elevator_control.sim/sim_1/behav/xsim.dir/lab8_elevator_control_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/kgopal/Downloads/lab8_elevator_control/lab8_elevator_control.sim/sim_1/behav/webtalk.log
+# Journal file: /home/kgopal/Downloads/lab8_elevator_control/lab8_elevator_control.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/kgopal/Downloads/lab8_elevator_control/lab8_elevator_control.sim/sim_1/behav/xsim.dir/lab8_elevator_control_behav/webtalk/xsim_webtalk.tcl -notrace

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1510913796">
+  <File Type="VDS-TIMING-PB" Name="lab8_elevator_control_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="lab8_elevator_control_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="lab8_elevator_control.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="lab8_elevator_control_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="lab8_elevator_control_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="lab8_elevator_control_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="lab8_elevator_control.vds"/>
+  <File Type="PA-TCL" Name="lab8_elevator_control.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/v_to_cathode_char.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/v_to_cathode_char.vhd"/>
+        <Attr Name="ImportTime" Val="1510853767"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/v_to_cathode_num.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/v_to_cathode_num.vhd"/>
+        <Attr Name="ImportTime" Val="1510853751"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/display.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/display.vhd"/>
+        <Attr Name="ImportTime" Val="1510852297"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/ringer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/ringer.vhd"/>
+        <Attr Name="ImportTime" Val="1510853469"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/pulse1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/pulse1.vhd"/>
+        <Attr Name="ImportTime" Val="1510852841"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/pulse.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/pulse.vhd"/>
+        <Attr Name="ImportTime" Val="1510852875"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/ten_clock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/ten_clock.vhd"/>
+        <Attr Name="ImportTime" Val="1510853781"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/display_clock.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/display_clock.vhd"/>
+        <Attr Name="ImportTime" Val="1510852441"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/request_handler.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/request_handler.vhd"/>
+        <Attr Name="ImportTime" Val="1510853444"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/status_display_block.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/status_display_block.vhd"/>
+        <Attr Name="ImportTime" Val="1510853651"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/lift_controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/lift_controller.vhd"/>
+        <Attr Name="ImportTime" Val="1510852757"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Lab8/lab8_elevator_control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Lab8/lab8_elevator_control.vhd"/>
+        <Attr Name="ImportTime" Val="1510080078"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lab8_elevator_control"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Desktop/lab8_elevator_control.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Desktop/lab8_elevator_control.xdc"/>
+        <Attr Name="ImportTime" Val="1510912349"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
